@@ -1,9 +1,9 @@
 {
   "name": "about_me",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
     "url": "https://github.com/LitzyreyesDev/About_me/issues"
   },
   "homepage": "https://github.com/LitzyreyesDev/About_me#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
